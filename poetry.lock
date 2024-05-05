@@ -885,6 +885,17 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 six = ">=1.5"
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.1"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "pytz"
 version = "2024.1"
 description = "World timezone definitions, modern and historical"
@@ -1329,7 +1340,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "c41ca9995c708a3f6af0fb0ef94042c4d9c20b13a3201706e6d1b5e6267a71ad"
+content-hash = "5920e3a69e2344017b8a08e07e0b9c3add4b8976af223613e7f65ee75e444cf4"
 
 [metadata.files]
 altair = []
@@ -1396,6 +1407,7 @@ pydantic-core = []
 pydeck = []
 pygments = []
 python-dateutil = []
+python-dotenv = []
 pytz = []
 pywin32 = []
 pyyaml = []
